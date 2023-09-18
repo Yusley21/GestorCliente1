@@ -1,0 +1,83 @@
+/* Estilos generales para todos los archivos HTML */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2b9b9; /* Cambia este valor al color de fondo que desees */
+}
+
+h1 {
+    color: #cc0707;
+}
+
+.enlace-button {
+    background-color: #007bff;
+    color: #111111;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.enlace-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para index.html */
+body.index {
+    background-color: #239569;
+}
+
+
+/* Estilos específicos para formulario.html */
+body.formulario {
+    background-color: #e0e0e0;
+}
+
+#formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos específicos para clientes.html */
+body.clientes {
+    background-color: #d0d0d0;
+}
+
+#clientes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
